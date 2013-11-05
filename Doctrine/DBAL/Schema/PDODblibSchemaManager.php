@@ -19,12 +19,14 @@
 
 namespace PDODblibBundle\Doctrine\DBAL\Schema;
 
+use \Doctrine\DBAL\Schema\SQLServerSchemaManager;
+
 /**
  * The PDO-based Dblib schema manager.
  *
  * @since 2.0
  */
-class PDODblibSchemaManager extends \Doctrine\DBAL\Schema\MsSqlSchemaManager {
+class PDODblibSchemaManager extends SQLServerSchemaManager {
 
     /**
      * @override
