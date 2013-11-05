@@ -1,5 +1,5 @@
 {
-    "name": "leaseweb/doctrine-pdo-dblib",
+    "name": "tolean/leaseweb/doctrine-pdo-dblib",
     "type": "library",
     "description": "Library for support of the pdo_dblib (MSSQL) driver in Doctrine",
     "keywords": ["pdo_dblib","pdo","dblib","mssql","doctrine"],
